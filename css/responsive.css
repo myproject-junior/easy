@@ -1,0 +1,1146 @@
+/*======================================
+			RESPONSIVE CSS
+=======================================*/
+
+
+/*==========================================================
+		RESPONSIVE SCREEN 1200px
+===========================================================*/
+@media(min-width:1200px) {
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 1024px
+===========================================================*/
+@media(max-width:1024px) {
+#coporate #about .nav-tabs > li {
+	width: 21.9%;
+}
+#coporate .b-tittle {
+	width: 75%;
+}
+#coporate .contact_us ul li {
+	line-height: 40px;
+}
+.contact_us {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 800px
+===========================================================*/
+
+@media(min-width:960px) and (max-width:1050px) {
+
+.rotate {
+    left: -20px !important;
+}
+
+}
+
+@media(min-width:800px) and (max-width:1050px) {
+
+.rotate {
+    left: -100px;
+}
+
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 768px ---- 991px
+===========================================================*/
+@media(min-width:768px) and (max-width:991px) {
+
+#creative #owl-clients {
+    left: 2%;
+}
+
+.rotate {
+    left: -117px;
+}
+
+#coporate #banner .text {
+    position: absolute;
+    margin: 23% auto 0px;
+}
+
+#coporate .client_logo_area {
+    margin: 0px auto;
+    width: 100%;
+    left: -0%;
+    position: relative;
+}
+
+#coporate #owl-clients img {
+	width:100%;
+}
+
+#coporate #owl-clients .owl-controls .owl-prev {
+    left: -20px;
+}
+
+#coporate #owl-clients .owl-controls .owl-next {
+    right: -20px;
+}
+
+#coporate .work_img {
+    height: auto;
+}
+
+#coporate .company a {
+    width: 100%;
+    padding: 15% 0px;
+}
+
+#nav li a {
+	padding: 20px 0px;
+}
+#coporate #nav li {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+#about .tabs {
+	width: 100%;
+}
+#about .nav-tabs > li {
+	width: 23.5%
+}
+#about .text {
+	margin-top: 300px;
+	margin-bottom: 30px;
+}
+ul.team_menu li {
+	padding: 15px 16px;
+}
+#client .client_rotate {
+	left: -140px;
+}
+.silve {
+	margin-top: 60px;
+}
+#real-estate .products ul li {
+	width: 50%;
+	text-align: left;
+}
+#real-estate .products ul {
+	text-align: left;
+	line-height: 25px;
+}
+#real-estate .products .iner a {
+	width: 100%;
+	display: inline-block;
+}
+#real-estate .products .avai {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+#real-estate .pro-serch label {
+	margin-top: 10px;
+}
+#real-estate button.btn {
+	width: 100%;
+	margin-top: 20px;
+}
+.contact_us {
+	position: relative;
+	display: inline-block;
+}
+.silver {
+	margin-bottom: 60px;
+}
+#coporate #about .nav-tabs > li {
+	width: 21%;
+}
+#product #banner {
+	margin-top: -136px;
+}
+#product #nav li a {
+	padding: 10px 10px;
+}
+#product #banner .text {
+	margin-top: 25% !important;
+}
+#real-estate #banner .text {
+	left: 0px;
+}
+#portfolio-item .item {
+	width: 50%;
+	float: left;
+}
+#coporate #banner .text {
+	left: 0px;
+}
+.menu {
+	left: 0px;
+	width: 100%;
+	padding: 0 15px;
+}
+#restaurant #nav li {
+	margin: 0 15px;
+}
+#header .logo {
+	margin-top: 20px;
+}
+#restaurant #banner {
+	margin-top: -100px;
+}
+#creative #nav li a{
+	padding: 20px 10px;
+}
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 992px ---- 1199px
+===========================================================*/
+
+@media(min-width:768px) and (max-width:1050px) {
+
+.client_logo_area {
+    margin: 0px auto;
+    width: 104%;
+    left: -4%;
+    position: relative;
+}
+
+}
+
+@media(min-width:480px) and (max-width:767px) {
+
+.pricing_area .col-md-4 {
+	padding:0 15%;
+}
+
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 767px
+===========================================================*/
+@media(max-width:767px) {
+
+
+#real-estate #banner .text {
+    position: absolute;
+    margin: 33% auto 0px;
+}
+
+#real-estate .carousel, #real-estate .carousel-inner, #real-estate .carousel-inner .item {
+    height: 550px !important;
+}
+
+#product #feature {
+	background-size: auto 150%;
+}
+
+#product #header .logo {
+    width: 50% !important;
+    text-align: left !important;
+	padding-left:20px;
+}
+
+.carousel, .carousel-inner, .carousel-inner .item {
+    height: 615px !important;
+}
+
+#creative .intro-text {
+    width: 100%;
+    top: 55%;
+    padding: 0px 30px;
+}
+
+#creative .intro-text h1 {
+    line-height: 45px;
+    font-size: 30px;
+}
+
+#creative #banner {
+    height: 475px !important;
+    max-height: auto !important;
+    background-size: auto 150%;
+}
+
+#restaurant #header {
+	margin-top: 0px;
+	background: #000;
+}
+#nav li {
+	width: 100%;
+	text-align: center;
+}
+#coporate #nav li {
+	margin: 0px;
+}
+#nav li a {
+	width: 100%;
+}
+#header .navbar-nav {
+	float: none;
+}
+#restaurant .is-sticky #header {
+}
+#restaurant .navbar {
+	background: #000;
+	width: 100%;
+}
+#restaurant .navbar-toggle {
+	color: #fff;
+}
+.silver {
+	margin-bottom: 100px;
+}
+#coporate #about .nav-tabs > li {
+	margin: 0 5px;
+}
+ul.team_menu li {
+	padding: 12px 20px;
+	font-size: 12px;
+}
+.our_work_menu li {
+	padding: 10px 17px;
+}
+#coporate .work_img {
+	margin-top: 10px;
+}
+.contact_rotate {
+	left: -210px;
+}
+.banner .rotate {
+	left: -125px;
+}
+#about .text {
+	margin-top: 300px;
+	margin-bottom: 30px;
+}
+#about .tabs {
+	width: 100%;
+}
+#about .nav-tabs > li {
+	width: 169px;
+}
+#client .client_rotate {
+	left: -140px;
+}
+#owl-clients .owl-controls .owl-prev {
+	left: -60px;
+	top: 170px;
+}
+#owl-clients .owl-controls .owl-next {
+	right: -60px;
+	top: 170px;
+}
+#coporate .b-tittle {
+	float: left;
+	width: 76%;
+}
+#coporate #banner .text {
+	width: 95%;
+}
+#product #review .review {
+	width: 100%;
+}
+#real-estate .products ul li {
+	width: 50%;
+	text-align: left;
+}
+#real-estate .products ul {
+	text-align: left;
+	line-height: 25px;
+}
+#real-estate .products .iner a {
+	width: 100%;
+	display: inline-block;
+}
+#real-estate .products .avai {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+#real-estate .pro-serch label {
+	margin-top: 10px;
+}
+#real-estate button.btn {
+	width: 100%;
+	margin-top: 20px;
+}
+.carousel, .carousel-inner, .carousel-inner .item {
+	height: 550px;
+}
+#real-estate #banner .inner-slide {
+	margin-top: 0px;
+}
+#real-estate #banner .inner-slide {
+}
+.carousel-indicators {
+	bottom: 40px;
+}
+#portfolio-item .item {
+	width: 50%;
+	float: left;
+}
+#product #download {
+	background-repeat: repeat-y;
+}
+.navbar {
+	background: #fff;
+}
+#product .navbar-toggle {
+	color: #000;
+}
+#product #feature li {
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+#product .is-sticky #header {
+}
+#product .navbar {
+	background: #fff;
+}
+#real-estate .is-sticky #header {
+}
+#real-estate #banner .text {
+	left: 0px;
+}
+#product #banner .text .btn {
+	margin-left: 0px;
+}
+#product #header {
+	margin-top: 0px;
+}
+#real-estate .team {
+	margin-bottom: 20px;
+}
+#real-estate .blog-tittle {
+	width: 80%;
+}
+#real-estate .top-bar {
+	display: none;
+}
+.menu-wrap .logo {
+	margin-top: 20px;
+	position: relative;
+	z-index: 99;
+}
+.menu-wrap #nav {
+	margin-top: 20px;
+}
+.menu-wrap #nav li a {
+	padding-bottom: 0px;
+}
+.menu-wrap {
+	position: absolute !important;
+	padding-bottom: 30px;
+}
+.navbar-collapse {
+	padding: 0px;
+}
+#header .container {
+	padding: 0px;
+}
+#header .logo {
+	margin-left: 20px;
+}
+#creative #header .navbar {
+	float: right;
+}
+#video-home video {
+	height: 1500px !important;
+	top: 0px !important;
+	width: auto !important;
+}
+.covervid-video {
+	height: auto !important;
+}
+#product #header .logo {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#product #download {
+	background-size:auto 150%;
+}
+
+#product #header .navbar-nav {
+	text-align: center;
+}
+#product #header #close-button {
+	left: 0px;
+	margin: 0 auto;
+	right: 0px;
+	top: 0px;
+	width: 10px;
+}
+#product #header .logo {
+	padding-top: 20px !important;
+}
+#product #header {
+	position: fixed;
+}
+#product #header .menu-wrap {
+	position: fixed !important;
+}
+#restaurant #header nav li {
+	margin: 0px;
+}
+#restaurant .navbar-toggle {
+	margin-top: 0px;
+}
+#restaurant #nav li {
+	margin: 0px !important;
+}
+#restaurant .menu-wrap {
+	position: fixed !important;
+}
+#product .menu {
+    padding: 7px 0 0 !important;
+}
+#real-estate .property-tittle {
+	margin-top: 30px;
+}
+#real-estate #nav {
+	margin-top: 50px !important;
+}
+#real-estate #nav li a {
+	padding: 15px !important;
+}
+#creative #header .logo {
+	float: left;
+}
+#creative #header .menu {
+	display: inline-block;
+	width: 100%;
+}
+#creative .banner .rotate {
+	border: none;
+	background: none;
+}
+#creative .banner .rot-border {
+	border: none;
+	width: 100%;
+	left: 0px;
+}
+#creative .team_img:hover .hover_div{
+	transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+#creative .hover_heading{
+	transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	width:100%;
+}
+#creative .rotate {
+	transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	width: 100%;
+	left: 0px;
+}
+
+#creative .creative {
+	min-height: 280px;
+}
+
+#creative #about {
+    padding-top: 30px;
+}
+
+.stay_touch h3 {
+    font-size: 28px;
+}
+
+.stay_about_us p {
+    font-size: 15px;
+}
+
+.social_area h4 {
+    padding-top: 25px;
+}
+
+.single_social.margin_zero a {
+    margin-left: 9px;
+}
+
+.filter li a {
+    padding: 10px;
+    font-size: 11px;
+}
+
+.client_area {
+    background-size: auto 100%;
+}
+
+.p_content h5 {
+	font-size:16px;
+}
+
+.blog_content p {
+    font-size: 13px;
+}
+
+#creative #about .nav-tabs > li {
+	width: 23%;
+	height:auto;
+	padding:20px 0px;
+	margin-left: 5px;
+	margin-right: 0px;
+}
+#creative #about .rot-border {
+	width: 100%;
+	border: none;
+}
+#creative .client_logo {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	width: 100%;
+	margin: 1px 0px;
+}
+
+#creative #owl-clients .item {
+padding:1px;
+}
+
+#creative .client_logo_area .owl-carousel .owl-item {
+	margin: 70px 0px;
+	margin-bottom:0px;
+} 
+#creative .client_logo_area  .owl-item{
+	height:auto;
+}
+#creative #about .icon {
+	margin-top: 0px;
+}
+#creative .client_logo_img {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+#creative .portfolio .port-item {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+#creative .client_rotate{
+	background:none;
+}
+#creative .portfolio .port-item img {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	margin: 0px;
+	width: 100%;
+}
+#creative .portfolio li {
+	margin: 0px !important;
+}
+#creative .port-item .des {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 20%;
+}
+#creative .port-item .des a.link {
+	right: 40%;
+}
+#creative .port-item .des a.zoom {
+	left: 40%;
+}
+#creative .price_btn {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+#creative .price_btn a {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+#creative .price_btn {
+	bottom: -30px;
+	height: 56px;
+	width: 62%;
+}
+#creative .creative-form .contactForm {
+	width: 100%;
+}
+#creative .contact_us {
+	width: 100%;
+	top:50px;
+	background:#FAA026;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+#creative .contact_rotate {
+	left: 0px;
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	width: 100%;
+	outline: none;
+	border: none;
+	position: relative;
+	top: 50px;
+	display: inline-block;
+	display:none;
+}
+#creative .portfolio .item {
+	float: left;
+	width: 50%;
+}
+#creative .portfolio .port-item {
+	width: 100%;
+	margin: 0px;
+	height: auto;
+}
+#creative #about .rotate .inner {
+	width: 175%;
+}
+#creative .rotate .inner {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+#creative #about .rotate {
+	background: none;
+}
+#creative #about .text {
+	margin-top: 0px;
+}
+#creative  #owl-clients .owl-controls .owl-next{
+	background:none;
+}
+#creative  #owl-clients .owl-controls .owl-prev{
+	background:none;
+}
+#creative .social_area{
+	width: 100%;
+	float:left;
+}
+#creative  #banner .huge{
+	display:none;
+}
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 667px
+===========================================================*/
+@media (max-width: 667px) {
+#portfolio-item .item {
+	width: 49%;
+}
+#coporate #owl-clients .owl-controls .owl-next {
+	right: -35px;
+}
+#coporate #owl-clients .owl-controls .owl-prev {
+	left: -35px;
+}
+#coporate #portfolio-item .team-name {
+	padding: 0 5px;
+	float: left;
+	width: 100%;
+	margin-top: -70px;
+	height: 70px;
+}
+#real-estate .blog-tittle {
+	width: 100%;
+}
+#coporate #portfolio-item .item {
+	width: 100%;
+	margin-top: -1px;
+	float: left;
+}
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 600px
+===========================================================*/
+@media (max-width: 600px) {
+
+#creative #banner {
+    height: 475px !important;
+    max-height: auto !important;
+    background-size: auto 150%;
+}
+
+#menu .tabs {
+	text-align: center;
+	min-height: 50px;
+}
+#menu .tabs li {
+	width: auto;
+	padding: 0 26px;
+}
+#menu .tabs li a {
+	font-size: 12px;
+	line-height: 50px;
+}
+.filter {
+    margin: 0 0 25px !important;
+}
+#portfolio-item .item {
+	width: 49%;
+}
+#restaurant .b-tittle {
+	width: 78%;
+}
+#restaurant #banner .text {
+	left: 0px;
+}
+#real-estate .top-bar {
+	display: none;
+}
+#real-estate .team img {
+	width: 100%;
+}
+h2 {
+	letter-spacing: 0px;
+}
+#about .nav-tabs > li a img {
+	margin-top: 0px;
+}
+#coporate #about .nav-tabs > li {
+	border: none !important;
+	height: auto !important;
+}
+#coporate #about .nav-tabs > li a span {
+	font-size: 12px;
+}
+#coporate #about .nav-tabs > li img {
+	width: 50%;
+}
+#coporate #about .nav-tabs > li:nth-child(1) img {
+	width: 41%;
+}
+#coporate #about .nav-tabs > li:nth-child(4) img {
+	width: 30%;
+}
+#coporate #about .nav-tabs > li:hover {
+	border: none !important;
+}
+#coporate #about .nav-tabs > li.avtive {
+	border: none !important;
+}
+ul.team_menu li {
+	margin: 3px 0 !important;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+#creative #about .nav-tabs > li a span {
+	font-size: 12px;
+}
+#creative #about .nav-tabs > li img {
+	width: 50%;
+}
+#creative #about .nav-tabs > li:nth-child(1) img {
+	width: 41%;
+}
+#creative #about .nav-tabs > li:nth-child(4) img {
+	width: 30%;
+}
+#creative #about .nav-tabs > li:hover {
+	border: none !important;
+}
+#creative #about .nav-tabs > li.avtive {
+	border: none !important;
+}
+
+#coporate #portfolio-item .team-name {
+	height: 55px;
+	line-height: 55px;
+}
+.our_work_menu li {
+	margin: 5px 0;
+}
+#coporate #portfolio-item .team-name p {
+	line-height: 55px;
+}
+#owl-clients .owl-controls .owl-prev {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	top: 35%;
+}
+#owl-clients .owl-controls .owl-next {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	top: 35%;
+}
+#coporate #portfolio-item .team-name {
+	padding: 0 5px;
+	float: left;
+	width: 100%;
+	margin-top: -55px;
+}
+#coporate #portfolio-item .social_icons {
+	margin-top: 0px;
+}
+#coporate #portfolio-item .item {
+	width: 100%;
+	margin-top: -1px;
+	float: left;
+}
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 540px
+===========================================================*/
+@media(max-width:540px) {
+
+#creative #banner {
+    height: 475px !important;
+    /*max-height: auto !important;*/
+    background-size: auto 150%;
+}
+
+/*.blog_content {*/
+	/*text-align: center;*/
+/*}*/
+.blog_content .text-left {
+	text-align: center;
+}
+#restaurant .b-tittle {
+	width: 100%;
+}
+#restaurant .blog_date {
+	float: none;
+	display: inline-block;
+	margin-top: -97px;
+}
+#owl-clients .owl-item {
+	text-align: center;
+}
+#owl-clients .owl-item img {
+	width: 100%;
+}
+#owl-clients .owl-controls .owl-prev {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	top: 35% !important;
+}
+#owl-clients .owl-controls .owl-next {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	top: 35% !important;
+}
+#coporate #portfolio-item .team-name {
+	padding: 0 5px;
+	float: left;
+	width: 100%;
+	margin-top: -55px;
+}
+#coporate #portfolio-item .social_icons {
+	margin-top: 0px;
+}
+#coporate #portfolio-item .item {
+	width: 100%;
+	margin-top: -1px;
+	float: left;
+}
+#coporate .team_img {
+}
+#owl-clients .owl-item img{
+	width:auto;
+}
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 479px
+===========================================================*/
+
+@media(max-width:479px) {
+
+#creative #banner {
+    height: 560px !important;
+    max-height: auto !important;
+    background-size: auto 150%;
+}
+
+#creative #about .nav-tabs > li a span {
+    font-size: 9px;
+}
+
+#owl-clients .owl-controls .owl-prev {
+    top: 50% !important;
+    left: -40px;
+}
+
+#owl-clients .owl-controls .owl-next {
+    top: 50% !important;
+    right: -40px;
+}
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 414px
+===========================================================*/
+@media(max-width:414px) {
+	#coporate .b-tittle {
+		width: 100%;
+	}
+	/*#coporate .blog_date {*/
+		/*display: inline-block;*/
+		/*float: none;*/
+		/*margin: 0 auto;*/
+		/*margin-top: -95px;*/
+	/*}*/
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 400px
+===========================================================*/
+@media(max-width:400px) {
+#menu .tabs li {
+	width: auto;
+	padding: 0 20px;
+}
+#coporate .b-tittle {
+	width: 100%;
+}
+/*#coporate .blog_date {*/
+	/*float: none;*/
+	/*display: inline-block;*/
+	/*margin-top: -93px;*/
+/*}*/
+#coporate .b-tittle {
+	width: 100% !important;
+}
+.work_subtitle {
+	width: 98%;
+}
+#coporate .owl-item .item {
+	text-align: center;
+}
+.banner .rotate {
+	left: -325px;
+}
+#coporate #banner .text {
+	top: 5% !important;
+}
+#coporate #banner .text h2 {
+	font-size: 36px;
+}
+#coporate #banner .text {
+	left: 0px;
+}
+#coporate #banner .text {
+	width: 100% !important;
+}
+#coporate #banner .text p {
+	font-size: 16px;
+}
+.filter {
+	margin: 10px 0!important;
+}
+.our_work_menu li {
+	padding: 8px 10px;
+	font-size: 12px;
+}
+.contact_us_area {
+	min-height: 1000px;
+}
+.contact_us {
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+}
+#coporate #banner .text {
+	top: 5% !important;
+}
+#portfolio-item .item {
+	width: 99%;
+}
+#menu .pro-name li span {
+	width: 80%;
+}
+#real-estate .top-bar {
+	display: none;
+}
+#real-estate .top-bar span {
+	display: inline-block;
+	width: 100%;
+}
+#real-estate #banner .text {
+	left: 0px;
+}
+.owl-item .col-md-12 {
+	padding: 0px;
+}
+#appart .owl-carousel {
+	padding: 0px;
+}
+#real-estate .blog-date {
+	width: 100%;
+}
+#owl-estate.row {
+	padding: 0px;
+}
+#real-estate .blog-date {
+	margin-bottom: 10px;
+}
+#real-estate .blog-tittle {
+	margin-top: 0px;
+}
+#owl-gallery .owl-controls .owl-next {
+	top: 30%;
+}
+#owl-gallery .owl-controls .owl-prev {
+	top: 30%;
+}
+#real-estate .social_icons a {
+	width: 34px;
+}
+#real-estate .property-tittle {
+	padding: 20px 10px;
+}
+#creative .portfolio .item{
+	width:100%;
+}
+.filter li a{
+	padding:10px;
+	font-size:12px;
+}
+}
+
+/*==========================================================
+		RESPONSIVE SCREEN 320px
+===========================================================*/
+@media(max-width:320px) {
+#coporate #about .nav-tabs > li {
+	width: 21.5% !important;
+}
+}

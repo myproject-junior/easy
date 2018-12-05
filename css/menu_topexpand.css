@@ -1,0 +1,199 @@
+/*=======================================================
+			MENU STYLES
+========================================================*/
+.menu-wrap a {
+	color: #555d7c;
+}
+.menu-wrap a:hover, .menu-wrap a:focus {
+	color: #fffce1;
+}
+.content-wrap {
+	-webkit-overflow-scrolling: touch;
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+/* Common styles for menu button and menu-wrap */
+.menu-button, .menu-wrap {
+	position: fixed;
+	width: 2.5em;
+	height: 2.25em;
+	font-size: 1.5em;
+	-webkit-transform: translate3d(1.5em, 1.5em, 0);
+	transform: translate3d(1.5em, 1.5em, 0);
+}
+/* Menu Button */
+
+.menu-button {
+	z-index: 9999;
+	position: fixed;
+	padding: 0;
+	width: 60px;
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	background: #3193c5;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.show-menu .menu-button {
+	z-index: 99;
+	top: 0px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.menu-button::before {
+}
+.close-button {
+}
+.close-button i {
+	color: #cacaca;
+}
+#close-button {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.menu-button:hover {
+	opacity: 0.6;
+}
+/* Menu */
+.menu-wrap {
+	z-index: 999;
+	-webkit-transition: width 0.4s, height 0.4s, -webkit-transform 0.4s;
+	transition: width 0.4s, height 0.4s, transform 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+.menu-wrap .logo {
+	margin-top: 0px !important;
+}
+#coporate .menu-wrap .logo {
+	margin-top: 10px !important;
+}
+.menu {
+	display: none;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.show-menu .menu {
+	display: block;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.icon-list {
+}
+.icon-list a {
+	opacity: 0;
+	display: inline-block;
+}
+#banner {
+	margin-top: 0px;
+}
+.icon-list a span {
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.5em;
+	font-weight: 700;
+	padding-top: 0.5em;
+}
+/* Shown menu */
+.show-menu .content-wrap {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transform: translate3d(0, 0px, 0);
+	transform: translate3d(0, 0px, 0);
+}
+.show-menu .menu-wrap {
+	width: 100%;
+	min-height: 70px;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+.show-menu .icon-list a {
+	opacity: 1;
+	-webkit-transition: opacity 0.4s 0.4s;
+	transition: opacity 0.4s 0.4s;
+}
+.show-menu .icon-list a:nth-child(2) {
+	-webkit-transition-delay: 0.42s;
+	transition-delay: 0.42s;
+}
+.show-menu .icon-list a:nth-child(3) {
+	-webkit-transition-delay: 0.44s;
+	transition-delay: 0.44s;
+}
+.show-menu .icon-list a:nth-child(4) {
+	-webkit-transition-delay: 0.46s;
+	transition-delay: 0.46s;
+}
+.show-menu .icon-list a:nth-child(5) {
+	-webkit-transition-delay: 0.48s;
+	transition-delay: 0.48s;
+}
+.show-menu .icon-list a:nth-child(6) {
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+#real-estate #header {
+	margin-top: 0px !important;
+	background: #fff !important;
+}
+#real-estate #header .logo {
+	margin-top: 20px !important;
+}
+#restaurant #header {
+	margin-top: 0px;
+	background: #000;
+}
+#restaurant #close-button {
+	top: 10px
+}
+#product #header {
+	padding: 10px 0;
+	margin-top: 0px;
+	background: #fff;
+}
+#product #close-button {
+	top: 15px;
+}
+#product #header .logo {
+	margin-top: 5px !important;
+}
+#product #header nav li a {
+	text-transform: uppercase;
+	color: #333;
+}
+#real-estate.show-menu .top-bar {
+	display: none;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-ms-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+/*==========================================================
+		RESPONSIVE SCREEN 767px
+===========================================================*/
+@media(max-width:767px) {
+#product .menu-wrap {
+	position: fixed !important;
+}
+}
