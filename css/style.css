@@ -393,7 +393,7 @@ a:focus {
 
 #banner .text .btn:hover {
 	background: #fff;
-	color: #000;
+	color: #fff;
 }
 
 #banner .text h2 {
@@ -4800,14 +4800,14 @@ object {
 }
 
 .bnr-text .btn {
-	border: 2px solid #333;
+	border: 2px solid #fff;
 	display: inline-block;
 	border-radius: 0px;
-	color: #333;
+	color: #fff;
 	font-size: 16px;
 	padding: 15px 35px;
 	margin-top: 50px;
-	background: none;
+	background: #3193c5;
 }
 
 .bnr-text .btn:hover {

@@ -1,0 +1,7 @@
+1 - Banner inicial: Trocar as imagens do carrosel: FEITO
+2 - Banner Inicial: Link para serviços
+3 - Ícones empresa: Historia, Propósito, Área de atuação, Fazer Parte
+4 - Cursos: Alterar para Serviços, Serviços: Cursos, Consultoria, Treinamento inloco
+5 - Novidades: Alterar para conteúdo
+6 - Contato: Alterar ícone do twitter para Instagram
+7 - Formulário de contato: No campo assunto colocar um dropdown com Dúvidas, Fazer Parte, Orçamento.
